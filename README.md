@@ -32,6 +32,7 @@ Created with [SQLite](https://sqlite.org/).
 - Copy __.env.example__ file to __.env__ and edit database credentials there
 - Run __composer install__
 - Run __php artisan key:generate__
+- Run __php artisan migrate:fresh__
 - That's it: launch the main URL.
 - __Notice!!__ Make sure that the equivalent of the `DB_DATABASE` TAG İN ENV file is as in the example.
 - __EXAMPLE__  `/Users/tarik/Desktop/EntegraBilisim/database/database.sqlite`
